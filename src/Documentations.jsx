@@ -1,0 +1,14 @@
+function Documentations() {
+    return (
+        <>
+            <h1>Veuillez trouver le tableau de synthèse et toutes les documentations relatives à ma formation et mes projets en entreprise.</h1>
+            <a href="#">Visualiser mon tableau de synthèse en pdf</a>
+            <a href="#">Télécharger mon tableau de synthèse en version modifiable</a>
+            <h2>Mes réalisations</h2>
+            <a href="#">Projets école</a>
+            <a href="#">Projets entreprise</a>
+        </>
+    )
+}
+
+export default Documentations
