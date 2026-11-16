@@ -4,6 +4,7 @@ import { BrowserRouter, Link, Routes, Route } from 'react-router-dom'
 
 import Home from './Home.jsx'
 import Documentations from './Documentations.jsx'
+import Ecole from './Ecole.jsx'
 
 function App() {
   return (
@@ -11,12 +12,13 @@ function App() {
       <BrowserRouter>
         <nav>
           <Link to="/">Home</Link> | {" "}
-          <Link to="/Documentations">Documentations</Link> | {" "}
+          <Link to="/documentations">Documentations</Link> | {" "}
         </nav>
 
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/Documentations' element={<Documentations />} />
+          <Route path='/documentations' element={<Documentations />} />
+          <Route path='/ecole' element={<Ecole />} />
         </Routes>
       </BrowserRouter>
     </>

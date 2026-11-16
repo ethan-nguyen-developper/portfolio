@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Documentations() {
     return (
         <>
@@ -5,7 +7,7 @@ function Documentations() {
             <a href="#">Visualiser mon tableau de synthèse en pdf</a>
             <a href="#">Télécharger mon tableau de synthèse en version modifiable</a>
             <h2>Mes réalisations</h2>
-            <a href="#">Projets école</a>
+            <Link to="/ecole">Projets école</Link>
             <a href="#">Projets entreprise</a>
         </>
     )
