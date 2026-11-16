@@ -8,7 +8,7 @@ function Documentations() {
             <a href="#">Télécharger mon tableau de synthèse en version modifiable</a>
             <h2>Mes réalisations</h2>
             <Link to="/ecole">Projets école</Link>
-            <a href="#">Projets entreprise</a>
+            <Link to="/entreprise">Projets entreprise</Link>
         </>
     )
 }
